@@ -5,4 +5,7 @@
     --cinza:#c0c0c0;
 }
 
-body{ background-color: var{--cor-de-fundo}; }
+body{ background-color: var(--cor-de-fundo);
+color: var(--branco-principal);}
+
+*{margin:}
