@@ -8,4 +8,22 @@
 body{ background-color: var(--cor-de-fundo);
 color: var(--branco-principal);}
 
-*{margin:}
+*{
+    margin: 0;
+    paing: 0;
+}
+.principal {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conteiner {
+    height: 100vh;
+}
+
+.conteiner__botão {
+    background-color: var(--botão-azul);
+    border-radius: 5px;
+    
+}
