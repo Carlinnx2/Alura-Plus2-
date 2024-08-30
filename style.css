@@ -20,10 +20,19 @@ color: var(--branco-principal);}
 
 .conteiner {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .conteiner__botão {
     background-color: var(--botão-azul);
     border-radius: 5px;
-    
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_segundario{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
 }
